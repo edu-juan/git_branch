@@ -13,4 +13,9 @@
  - git remote: 원격저장소의 리스트(이름)
  - git remote -v: 원격저장소 목록보기
 
- ### commit -m 쓰는 방법
+### GIT Branch 사용법
+ - git branch: Branch의 리스트
+ - git branch [브랜치이름]: 새로운 Branch 생성
+ 
+ #### Branch 이동
+ - git checkout [브랜치이름] & git switch [브랜치이름]: Branch 이동
