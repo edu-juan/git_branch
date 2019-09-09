@@ -16,6 +16,6 @@
 ### GIT Branch 사용법
  - git branch: Branch의 리스트
  - git branch [브랜치이름]: 새로운 Branch 생성
- 
- #### Branch 이동
+ - git switch -c [브랜치이름]: 새로운 Branch 생성
  - git checkout [브랜치이름] & git switch [브랜치이름]: Branch 이동
+ - git checkout -d [브랜치이름]: Branch 삭제
