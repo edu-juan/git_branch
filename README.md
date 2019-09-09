@@ -1,6 +1,4 @@
-# GIT Branch
-
-## GIT Branch
+# GIT
 
 ### GIT 기초
  - git init -master
@@ -12,6 +10,8 @@
  - git remote add: git remote add [저장소이름] [저장소주소]
  - git remote: 원격저장소의 리스트(이름)
  - git remote -v: 원격저장소 목록보기
+
+## GIT Branch
 
 ### GIT Branch 사용법
  - git branch: Branch의 리스트
@@ -26,8 +26,9 @@
  2. auto-merge (without conflict)
  3. merge with conflict
 
-#### Merge(Fast-forward): master에서 시작된 branch가 하나인 경우(master와 branch의 구분이 모호한 상황(?))
- - git merge [브랜치이름]: '현재 브랜치'에서 특정 브랜치를 병합
+#### Fast-forward: master에서 시작된 branch가 하나인 경우(master와 branch의 구분이 모호한 상황(?))
+#### Auto-merge: master와 branch에서 수정한 파일이 서로 다른 경우
+#### merge with conflict: master와 branch에서 같은 파일의 같은 부분을 수정한 경우
 
 ## Conflict는 뭘까
 ### Conflict의 정의
