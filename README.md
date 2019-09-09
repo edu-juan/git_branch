@@ -26,18 +26,9 @@
  2. auto-merge (without conflict)
  3. merge with conflict
 
-<<<<<<< HEAD
 #### Merge(Fast-forward): master에서 시작된 branch가 하나인 경우(master와 branch의 구분이 모호한 상황(?))
  - git merge [브랜치이름]: '현재 브랜치'에서 특정 브랜치를 병합
 
 ## Conflict는 뭘까
 ### Conflict의 정의
-=======
-#### Fast-forward: master에서 시작된 branch가 하나인 경우(master와 branch의 구분이 모호한 상황(?))
-#### Auto-merge: master와 branch에서 수정한 파일이 서로 다른 경우
-
-### Conflict 해결방법
-#### Conflict 발생조건
- - 동일 파일
- - 동일 라인의 내용이 다른 경우(동일 파일은 조심한다)
->>>>>>> develop
+ - 동일 파일의 동일 내용을 변경할때
