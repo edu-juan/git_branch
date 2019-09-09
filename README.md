@@ -30,6 +30,5 @@
 #### Auto-merge: master와 branch에서 수정한 파일이 서로 다른 경우
 #### merge with conflict: master와 branch에서 같은 파일의 같은 부분을 수정한 경우
 
-## Conflict는 뭘까
 ### Conflict의 정의
  - 동일 파일의 동일 내용을 변경할때
